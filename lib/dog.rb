@@ -1,3 +1,4 @@
+require "pry"
 # Your code goes here!
 class Dog
   def name=(name)
@@ -11,4 +12,5 @@ class Dog
   def bark
     puts "woof!"
   end
+  binding.pry
 end
